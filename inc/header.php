@@ -12,7 +12,7 @@
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/1acf2d22a5.js" 
         crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="../assets/css/KHCSS.css">
+        <link rel="stylesheet" href="assets/css/KHCSS.css">
         <link href="https://cdn.jsdelivr.net/gh/HuongLamCoder/font-awesome-pro-6.5.2/fontawesome-pro-6.5.2-web/css/all.min.css" 
         rel="stylesheet" 
         type="text/css"/>
@@ -30,8 +30,8 @@
                 <!-- Vinabook logo -->
                 <div class="col-3">
                     <div class="logo">
-                        <a href="" class="navbar-brand">
-                            <img src="../assets/vinabook-logo.png" alt="">
+                        <a href="?page=trang_chu" class="navbar-brand">
+                            <img src="assets/vinabook-logo.png" alt="">
                         </a>
                     </div>
                 </div>
@@ -48,13 +48,13 @@
                 <div class="col-3">
                     <ul class="nav-btn-list">
                         <li>
-                            <a href="" class="btn btn-1"><i class="fa-light fa-cart-shopping"></i></a>
+                            <a href="?page=gio_hang" class="btn btn-1"><i class="fa-light fa-cart-shopping"></i></a>
                         </li>
                         <li>
-                            <a href="" class="btn btn-2 signin-btn">Đăng nhập</a>
+                            <a href="?page=dang_nhap" class="btn btn-2 signin-btn">Đăng nhập</a>
                         </li>
                         <li>
-                            <a href="" class="btn btn-1 signup-btn">Đăng ký</a>
+                            <a href="?page=dang_ky" class="btn btn-1 signup-btn">Đăng ký</a>
                         </li>
                     </ul>
                 </div>

@@ -1,7 +1,4 @@
-<?php 
-    include_once "../inc/header.php";
-?>
-    <main class="homepage">
+<main class="homepage">
         <div class="container">
             <div class="row homepage-content">
                 <!-- Cột bên trái gồm: danh mục sách, best seller -->
@@ -52,7 +49,7 @@
                                 <li>
                                     <a href="" class="nav-link book-card">
                                         <div class="image-book">
-                                            <img src="../assets/example-book.jpg" alt="">
+                                            <img src="assets/example-book.jpg" alt="">
                                         </div>
                                         <div class="info-book">
                                             <span class="book-title">
@@ -66,7 +63,7 @@
                                 <li>
                                     <a href="" class="nav-link book-card">
                                         <div class="image-book">
-                                            <img src="../assets/example-book.jpg" alt="">
+                                            <img src="assets/example-book.jpg" alt="">
                                         </div>
                                         <div class="info-book">
                                             <span class="book-title">
@@ -80,7 +77,7 @@
                                 <li>
                                     <a href="" class="nav-link book-card">
                                         <div class="image-book">
-                                            <img src="../assets/example-book.jpg" alt="">
+                                            <img src="assets/example-book.jpg" alt="">
                                         </div>
                                         <div class="info-book">
                                             <span class="book-title">
@@ -94,7 +91,7 @@
                                 <li>
                                     <a href="" class="nav-link book-card">
                                         <div class="image-book">
-                                            <img src="../assets/example-book.jpg" alt="">
+                                            <img src="assets/example-book.jpg" alt="">
                                         </div>
                                         <div class="info-book">
                                             <span class="book-title">
@@ -108,7 +105,7 @@
                                 <li>
                                     <a href="" class="nav-link book-card">
                                         <div class="image-book">
-                                            <img src="../assets/example-book.jpg" alt="">
+                                            <img src="assets/example-book.jpg" alt="">
                                         </div>
                                         <div class="info-book">
                                             <span class="book-title">
@@ -122,7 +119,7 @@
                                 <li>
                                     <a href="" class="nav-link book-card">
                                         <div class="image-book">
-                                            <img src="../assets/example-book.jpg" alt="">
+                                            <img src="assets/example-book.jpg" alt="">
                                         </div>
                                         <div class="info-book">
                                             <span class="book-title">
@@ -149,7 +146,7 @@
                               <div class="carousel-item active">
                                 <div class="banner-content">
                                     <div class="image-book">
-                                        <img src="../assets/example-book2.jpg" class="d-block" alt="...">
+                                        <img src="assets/example-book2.jpg" class="d-block" alt="...">
                                     </div>
                                     <div class="info-book">
                                         <div class="title">
@@ -166,7 +163,7 @@
                               <div class="carousel-item">
                                 <div class="banner-content" style="background-color: #eecbb7;">
                                     <div class="image-book">
-                                        <img src="../assets/example-book3.jpg" class="d-block" alt="...">
+                                        <img src="assets/example-book3.jpg" class="d-block" alt="...">
                                     </div>
                                     <div class="info-book">
                                         <div class="title">
@@ -184,7 +181,7 @@
                               <div class="carousel-item">
                                 <div class="banner-content" style="background-color: #cae6ff;">
                                     <div class="image-book">
-                                        <img src="../assets/example-book4.jpg" class="d-block" alt="...">
+                                        <img src="assets/example-book4.jpg" class="d-block" alt="...">
                                     </div>
                                     <div class="info-book">
                                         <div class="title">
@@ -222,7 +219,7 @@
                                 <div class="book-card">
                                     <a href="" class="nav-link">
                                         <div class="image-book">
-                                            <img src="../assets/example-book5.jpg" alt="">
+                                            <img src="assets/example-book5.jpg" alt="">
                                         </div>
                                         <div class="info-book">
                                             <div class="title">
@@ -238,7 +235,7 @@
                                 <div class="book-card">
                                     <a href="" class="nav-link">
                                         <div class="image-book">
-                                            <img src="../assets/example-book5.jpg" alt="">
+                                            <img src="assets/example-book5.jpg" alt="">
                                         </div>
                                         <div class="info-book">
                                             <div class="title">
@@ -254,7 +251,7 @@
                                 <div class="book-card">
                                     <a href="" class="nav-link">
                                         <div class="image-book">
-                                            <img src="../assets/example-book5.jpg" alt="">
+                                            <img src="assets/example-book5.jpg" alt="">
                                         </div>
                                         <div class="info-book">
                                             <div class="title">
@@ -270,85 +267,7 @@
                                 <div class="book-card">
                                     <a href="" class="nav-link">
                                         <div class="image-book">
-                                            <img src="../assets/example-book5.jpg" alt="">
-                                        </div>
-                                        <div class="info-book">
-                                            <div class="title">
-                                                <h6>
-                                                    Điện Biên Phủ - Những Trang Vàng Lịch Sử
-                                                </h6>
-                                            </div>
-                                            <div class="units-sold-text"><span class="units-sold">100</span> lượt bán</div>
-                                            <div class="price-text"> <span class="price">125,000</span> đ</div> 
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="see-more">
-                                <a href="" class="btn nav-link">Xem thêm</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="category-book">
-                        <div class="title">
-                            <h3>
-                                Sách Văn Học
-                            </h3>
-                        </div>
-                        <div class="category-book-box b-shadow">
-                            <div class="category-book-content">
-                                <div class="book-card">
-                                    <a href="" class="nav-link">
-                                        <div class="image-book">
-                                            <img src="../assets/example-book5.jpg" alt="">
-                                        </div>
-                                        <div class="info-book">
-                                            <div class="title">
-                                                <h6>
-                                                    Điện Biên Phủ - Những Trang Vàng Lịch Sử
-                                                </h6>
-                                            </div>
-                                            <div class="units-sold-text"><span class="units-sold">100</span> lượt bán</div>
-                                            <div class="price-text"> <span class="price">125,000</span> đ</div> 
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="book-card">
-                                    <a href="" class="nav-link">
-                                        <div class="image-book">
-                                            <img src="../assets/example-book5.jpg" alt="">
-                                        </div>
-                                        <div class="info-book">
-                                            <div class="title">
-                                                <h6>
-                                                    Điện Biên Phủ - Những Trang Vàng Lịch Sử
-                                                </h6>
-                                            </div>
-                                            <div class="units-sold-text"><span class="units-sold">100</span> lượt bán</div>
-                                            <div class="price-text"> <span class="price">125,000</span> đ</div> 
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="book-card">
-                                    <a href="" class="nav-link">
-                                        <div class="image-book">
-                                            <img src="../assets/example-book5.jpg" alt="">
-                                        </div>
-                                        <div class="info-book">
-                                            <div class="title">
-                                                <h6>
-                                                    Điện Biên Phủ - Những Trang Vàng Lịch Sử
-                                                </h6>
-                                            </div>
-                                            <div class="units-sold-text"><span class="units-sold">100</span> lượt bán</div>
-                                            <div class="price-text"> <span class="price">125,000</span> đ</div> 
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="book-card">
-                                    <a href="" class="nav-link">
-                                        <div class="image-book">
-                                            <img src="../assets/example-book5.jpg" alt="">
+                                            <img src="assets/example-book5.jpg" alt="">
                                         </div>
                                         <div class="info-book">
                                             <div class="title">
@@ -378,7 +297,7 @@
                                 <div class="book-card">
                                     <a href="" class="nav-link">
                                         <div class="image-book">
-                                            <img src="../assets/example-book5.jpg" alt="">
+                                            <img src="assets/example-book5.jpg" alt="">
                                         </div>
                                         <div class="info-book">
                                             <div class="title">
@@ -394,7 +313,7 @@
                                 <div class="book-card">
                                     <a href="" class="nav-link">
                                         <div class="image-book">
-                                            <img src="../assets/example-book5.jpg" alt="">
+                                            <img src="assets/example-book5.jpg" alt="">
                                         </div>
                                         <div class="info-book">
                                             <div class="title">
@@ -410,7 +329,7 @@
                                 <div class="book-card">
                                     <a href="" class="nav-link">
                                         <div class="image-book">
-                                            <img src="../assets/example-book5.jpg" alt="">
+                                            <img src="assets/example-book5.jpg" alt="">
                                         </div>
                                         <div class="info-book">
                                             <div class="title">
@@ -426,7 +345,7 @@
                                 <div class="book-card">
                                     <a href="" class="nav-link">
                                         <div class="image-book">
-                                            <img src="../assets/example-book5.jpg" alt="">
+                                            <img src="assets/example-book5.jpg" alt="">
                                         </div>
                                         <div class="info-book">
                                             <div class="title">
@@ -456,7 +375,7 @@
                                 <div class="book-card">
                                     <a href="" class="nav-link">
                                         <div class="image-book">
-                                            <img src="../assets/example-book5.jpg" alt="">
+                                            <img src="assets/example-book5.jpg" alt="">
                                         </div>
                                         <div class="info-book">
                                             <div class="title">
@@ -472,7 +391,7 @@
                                 <div class="book-card">
                                     <a href="" class="nav-link">
                                         <div class="image-book">
-                                            <img src="../assets/example-book5.jpg" alt="">
+                                            <img src="assets/example-book5.jpg" alt="">
                                         </div>
                                         <div class="info-book">
                                             <div class="title">
@@ -488,7 +407,7 @@
                                 <div class="book-card">
                                     <a href="" class="nav-link">
                                         <div class="image-book">
-                                            <img src="../assets/example-book5.jpg" alt="">
+                                            <img src="assets/example-book5.jpg" alt="">
                                         </div>
                                         <div class="info-book">
                                             <div class="title">
@@ -504,7 +423,85 @@
                                 <div class="book-card">
                                     <a href="" class="nav-link">
                                         <div class="image-book">
-                                            <img src="../assets/example-book5.jpg" alt="">
+                                            <img src="assets/example-book5.jpg" alt="">
+                                        </div>
+                                        <div class="info-book">
+                                            <div class="title">
+                                                <h6>
+                                                    Điện Biên Phủ - Những Trang Vàng Lịch Sử
+                                                </h6>
+                                            </div>
+                                            <div class="units-sold-text"><span class="units-sold">100</span> lượt bán</div>
+                                            <div class="price-text"> <span class="price">125,000</span> đ</div> 
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="see-more">
+                                <a href="" class="btn nav-link">Xem thêm</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="category-book">
+                        <div class="title">
+                            <h3>
+                                Sách Văn Học
+                            </h3>
+                        </div>
+                        <div class="category-book-box b-shadow">
+                            <div class="category-book-content">
+                                <div class="book-card">
+                                    <a href="" class="nav-link">
+                                        <div class="image-book">
+                                            <img src="assets/example-book5.jpg" alt="">
+                                        </div>
+                                        <div class="info-book">
+                                            <div class="title">
+                                                <h6>
+                                                    Điện Biên Phủ - Những Trang Vàng Lịch Sử
+                                                </h6>
+                                            </div>
+                                            <div class="units-sold-text"><span class="units-sold">100</span> lượt bán</div>
+                                            <div class="price-text"> <span class="price">125,000</span> đ</div> 
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="book-card">
+                                    <a href="" class="nav-link">
+                                        <div class="image-book">
+                                            <img src="assets/example-book5.jpg" alt="">
+                                        </div>
+                                        <div class="info-book">
+                                            <div class="title">
+                                                <h6>
+                                                    Điện Biên Phủ - Những Trang Vàng Lịch Sử
+                                                </h6>
+                                            </div>
+                                            <div class="units-sold-text"><span class="units-sold">100</span> lượt bán</div>
+                                            <div class="price-text"> <span class="price">125,000</span> đ</div> 
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="book-card">
+                                    <a href="" class="nav-link">
+                                        <div class="image-book">
+                                            <img src="assets/example-book5.jpg" alt="">
+                                        </div>
+                                        <div class="info-book">
+                                            <div class="title">
+                                                <h6>
+                                                    Điện Biên Phủ - Những Trang Vàng Lịch Sử
+                                                </h6>
+                                            </div>
+                                            <div class="units-sold-text"><span class="units-sold">100</span> lượt bán</div>
+                                            <div class="price-text"> <span class="price">125,000</span> đ</div> 
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="book-card">
+                                    <a href="" class="nav-link">
+                                        <div class="image-book">
+                                            <img src="assets/example-book5.jpg" alt="">
                                         </div>
                                         <div class="info-book">
                                             <div class="title">
@@ -527,8 +524,5 @@
             </div>
         </div>
     </main>
-    <?php 
-        include_once "../inc/footer.php"
-    ?>
 </body>
 </html>

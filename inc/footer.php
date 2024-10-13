@@ -3,10 +3,10 @@
         <div class="footer">
             <div class="footer-img">
                 <div class="footer-logo">
-                    <img src="/assets/vinabook-logo.png" alt="">
+                    <img src="assets/vinabook-logo.png" alt="">
                 </div>
                 <div class="bocongthuong">
-                    <img src="/assets/bocongthuong.png" alt="">
+                    <img src="assets/bocongthuong.png" alt="">
                 </div>
             </div>
             <div class="footer-info">
@@ -22,6 +22,6 @@
             </div>
         </div>
     </footer>
-    <script src="../assets/js/KHJS.js"></script>
+    <script src="assets/js/KHJS.js"></script>
 </body>
 </html>

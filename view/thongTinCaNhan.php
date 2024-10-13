@@ -1,7 +1,4 @@
-<?php 
-    include_once "../inc/header.php";
-?>
-    <main class="personal-page">
+   <main class="personal-page">
         <div class="container">
             <div class="row personal-page-content">
                 <div class="col-3">
@@ -71,8 +68,5 @@
             </div>
         </div>
     </main>
-    <?php 
-        include_once "../inc/footer.php"
-    ?>
 </body>
 </html>
