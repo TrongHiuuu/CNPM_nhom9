@@ -13,6 +13,7 @@
     <script src="https://kit.fontawesome.com/1acf2d22a5.js" 
         crossorigin="anonymous"></script>
         <link rel="stylesheet" href="assets/css/KHCSS.css">
+        <link rel="stylesheet" href="asset/css/KHCSS.css">
         <link href="https://cdn.jsdelivr.net/gh/HuongLamCoder/font-awesome-pro-6.5.2/fontawesome-pro-6.5.2-web/css/all.min.css" 
         rel="stylesheet" 
         type="text/css"/>
@@ -32,6 +33,8 @@
                     <div class="logo">
                         <a href="?page=trang_chu" class="navbar-brand">
                             <img src="assets/vinabook-logo.png" alt="">
+                        <a href="" class="navbar-brand">
+                            <img src="asset/img/vinabook-logo.png" alt="">
                         </a>
                     </div>
                 </div>
@@ -61,5 +64,4 @@
             </div>
         </div>
     </header>
-</body>
-</html>
+

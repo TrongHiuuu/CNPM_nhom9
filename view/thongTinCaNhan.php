@@ -70,3 +70,6 @@
     </main>
 </body>
 </html>
+    <?php 
+        include_once "../inc/footer.php"
+    ?>

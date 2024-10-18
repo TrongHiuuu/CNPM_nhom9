@@ -59,3 +59,6 @@
     <script src="assets/js/dangKy.js?v=<?php echo time(); ?>"></script>
 </body>
 </html>
+    <?php 
+        include_once "../inc/footer.php"
+    ?>

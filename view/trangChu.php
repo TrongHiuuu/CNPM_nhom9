@@ -1,5 +1,9 @@
-<main class="homepage">
-        <div class="container">
+    <main class="homepage">
+    <?php 
+    include_once "inc/header.php";
+?>
+    <main class="homepage">
+            <div class="container">
             <div class="row homepage-content">
                 <!-- Cột bên trái gồm: danh mục sách, best seller -->
                 <div class="col-3">
@@ -8,36 +12,16 @@
                         <div class="category-box">
                             <ul>
                                 <p>Danh mục</p>
-                                <li>
-                                    <a href="" class="nav-link">Kinh tế</a>
-                                </li>
-                                <li>
-                                    <a href="" class="nav-link">Văn học trong nước</a>
-                                </li>
-                                <li>
-                                    <a href="" class="nav-link">Sách thưởng thức đời sống</a>
-                                </li>
-                                <li>
-                                    <a href="" class="nav-link">Văn học nước ngoài</a>
-                                </li>
-                                <li>
-                                    <a href="" class="nav-link">Văn học thiếu nhi</a>
-                                </li>
-                                <li>
-                                    <a href="" class="nav-link">Sách phát triển bản thân</a>
-                                </li>
-                                <li>
-                                    <a href="" class="nav-link">Sách giáo khoa - giáo trình</a>
-                                </li>
-                                <li>
-                                    <a href="" class="nav-link">Sách giáo khoa - giáo trình</a>
-                                </li>
-                                <li>
-                                    <a href="" class="nav-link">Sách giáo khoa - giáo trình</a>
-                                </li>
-                                <li>
-                                    <a href="" class="nav-link">Sách giáo khoa - giáo trình</a>
-                                </li>
+                                <?php
+                                    foreach($categories as $item){
+                                        extract($item);
+                                ?>
+                                    <li>
+                                        <a href="?page=search&category=<?=$idTL?>" class="nav-link"><?=$tenTL?></a>
+                                    </li>
+                                <?php  
+                                    }
+                                ?>
                             </ul>
                         </div>
                     </div>
@@ -46,7 +30,7 @@
                         <div class="best-seller-box">
                             <ul>
                                 <p>Best Seller</p>
-                                <li>
+                                    <li>
                                     <a href="" class="nav-link book-card">
                                         <div class="image-book">
                                             <img src="assets/example-book.jpg" alt="">
@@ -130,9 +114,31 @@
                                         </div>
                                     </a>
                                 </li>
-                            </ul>
+                                    <?php
+                                    foreach($bestSellers as $item){
+                                        extract($item);
+                                ?>
+                                    <li>
+                                        <a href="" class="nav-link book-card">
+                                            <div class="image-book">
+                                                <img src="asset/img/<?=$hinhanh?>" alt="">
+                                            </div>
+                                            <div class="info-book">
+                                                <span class="book-title">
+                                                    <?=$tuasach?>
+                                                </span>
+                                                <span class="units-sold-text"><span class="units-sold"><?=$luotban?></span> lượt bán</span>
+                                                <span class="price-text"> <span class="price"><?=number_format($giaban,0,"",".")?></span> đ</span> 
+                                            </div>
+                                        </a>
+                                    </li>
+                                <?php
+                                    }
+                                ?>
+                                
+                                </ul>
                             <div class="see-more">
-                                <a href="" class="nav-link">Xem thêm</a>
+                                <a href="?page=searchBestSeller" class="nav-link">Xem thêm</a>
                             </div>
                         </div>
                     </div>
@@ -146,8 +152,9 @@
                               <div class="carousel-item active">
                                 <div class="banner-content">
                                     <div class="image-book">
-                                        <img src="assets/example-book2.jpg" class="d-block" alt="...">
-                                    </div>
+                                            <img src="assets/example-book2.jpg" class="d-block" alt="...">
+                                            <img src="asset/img/example-book2.jpg" class="d-block" alt="...">
+                                        </div>
                                     <div class="info-book">
                                         <div class="title">
                                             <h4>Không Sợ Thất Bại, Chỉ Sợ Bạn Nuông Chiều Bản Thân Chưa Nỗ Lực Hết Mình</h4>
@@ -163,8 +170,9 @@
                               <div class="carousel-item">
                                 <div class="banner-content" style="background-color: #eecbb7;">
                                     <div class="image-book">
-                                        <img src="assets/example-book3.jpg" class="d-block" alt="...">
-                                    </div>
+                                            <img src="assets/example-book3.jpg" class="d-block" alt="...">
+                                            <img src="asset/img/example-book3.jpg" class="d-block" alt="...">
+                                        </div>
                                     <div class="info-book">
                                         <div class="title">
                                             <h4>Đập Chắn Thái Bình Dương
@@ -178,7 +186,7 @@
                                     </div>
                                 </div>
                               </div>
-                              <div class="carousel-item">
+                                  <div class="carousel-item">
                                 <div class="banner-content" style="background-color: #cae6ff;">
                                     <div class="image-book">
                                         <img src="assets/example-book4.jpg" class="d-block" alt="...">
@@ -197,7 +205,7 @@
                                     </div>
                                 </div>
                               </div>
-                            </div>
+                                </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
                               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                               <span class="visually-hidden">Previous</span>
@@ -208,19 +216,49 @@
                             </button>
                         </div>
                     </div>
-                    <div class="category-book">
-                        <div class="title">
-                            <h3>
-                                Sách Văn Học
-                            </h3>
-                        </div>
-                        <div class="category-book-box b-shadow">
+                    <?php
+                        foreach($category_books as $item){
+                    ?>
+                        <div class="category-book">
+                            <div class="title">
+                                <h3>
+                                    <?=$item['tenTL']?>
+                                </h3>
+                            </div>
+                            <div class="category-book-box b-shadow">
                             <div class="category-book-content">
+                    <?php
+                            foreach($item['tusach'] as $tuasach){
+                    ?>
+                            <div class="book-card">
+                                    <a href="" class="nav-link">
+                                        <div class="image-book">
+                                            <img src="../asset/img/" alt="">
+                                        </div>
+                                        <div class="info-book">
+                                            <div class="title">
+                                                <h6>
+                                                    Điện Biên Phủ - Những Trang Vàng Lịch Sử
+                                                </h6>
+                                            </div>
+                                            <div class="units-sold-text"><span class="units-sold">100</span> lượt bán</div>
+                                            <div class="price-text"> <span class="price">125,000</span> đ</div> 
+                                        </div>
+                                    </a>
+                                </div>
+                    <?php
+                            }
+                        }
+                    ?>
+                    
+                        
+                                
                                 <div class="book-card">
                                     <a href="" class="nav-link">
                                         <div class="image-book">
-                                            <img src="assets/example-book5.jpg" alt="">
-                                        </div>
+                                                <img src="assets/example-book5.jpg" alt="">
+                                                <img src="../asset/img/example-book5.jpg" alt="">
+                                            </div>
                                         <div class="info-book">
                                             <div class="title">
                                                 <h6>
@@ -235,8 +273,9 @@
                                 <div class="book-card">
                                     <a href="" class="nav-link">
                                         <div class="image-book">
-                                            <img src="assets/example-book5.jpg" alt="">
-                                        </div>
+                                                <img src="assets/example-book5.jpg" alt="">
+                                                <img src="../asset/img/example-book5.jpg" alt="">
+                                            </div>
                                         <div class="info-book">
                                             <div class="title">
                                                 <h6>
@@ -251,7 +290,7 @@
                                 <div class="book-card">
                                     <a href="" class="nav-link">
                                         <div class="image-book">
-                                            <img src="assets/example-book5.jpg" alt="">
+                                                <img src="assets/example-book5.jpg" alt="">
                                         </div>
                                         <div class="info-book">
                                             <div class="title">
@@ -502,7 +541,8 @@
                                     <a href="" class="nav-link">
                                         <div class="image-book">
                                             <img src="assets/example-book5.jpg" alt="">
-                                        </div>
+                                                <img src="../asset/img/example-book5.jpg" alt="">
+                                            </div>
                                         <div class="info-book">
                                             <div class="title">
                                                 <h6>
@@ -524,5 +564,9 @@
             </div>
         </div>
     </main>
-</body>
+    </body>
 </html>
+        <?php 
+        include_once "inc/footer.php"
+    ?>
+    

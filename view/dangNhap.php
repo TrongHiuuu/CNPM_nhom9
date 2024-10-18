@@ -41,3 +41,6 @@
     <script src="assets/js/dangNhap.js?v=<?php echo time(); ?>"></script>
 </body>
 </html>
+    <?php 
+        include_once "../inc/footer.php"
+    ?>

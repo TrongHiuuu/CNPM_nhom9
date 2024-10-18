@@ -72,6 +72,7 @@
                                     <a href="" class="nav-link">
                                         <div class="image-book">
                                             <img src="assets/example-book5.jpg" alt="">
+                                            <img src="../asset/img/example-book5.jpg" alt="">
                                         </div>
                                         <div class="info-book">
                                             <span class="title">
@@ -86,6 +87,7 @@
                                     <a href="" class="nav-link">
                                         <div class="image-book">
                                             <img src="assets/example-book5.jpg" alt="">
+                                            <img src="../asset/img/example-book5.jpg" alt="">
                                         </div>
                                         <div class="info-book">
                                             <span class="title">
@@ -100,6 +102,7 @@
                                     <a href="" class="nav-link">
                                         <div class="image-book">
                                             <img src="assets/example-book5.jpg" alt="">
+                                            <img src="../asset/img/example-book5.jpg" alt="">
                                         </div>
                                         <div class="info-book">
                                             <span class="title">
@@ -114,6 +117,7 @@
                                     <a href="" class="nav-link">
                                         <div class="image-book">
                                             <img src="assets/example-book5.jpg" alt="">
+                                            <img src="../asset/img/example-book5.jpg" alt="">
                                         </div>
                                         <div class="info-book">
                                             <span class="title">
@@ -128,6 +132,7 @@
                                     <a href="" class="nav-link">
                                         <div class="image-book">
                                             <img src="assets/example-book5.jpg" alt="">
+                                            <img src="../asset/img/example-book5.jpg" alt="">
                                         </div>
                                         <div class="info-book">
                                             <span class="title">
@@ -142,6 +147,7 @@
                                     <a href="" class="nav-link">
                                         <div class="image-book">
                                             <img src="assets/example-book5.jpg" alt="">
+                                            <img src="../asset/img/example-book5.jpg" alt="">
                                         </div>
                                         <div class="info-book">
                                             <span class="title">
@@ -156,6 +162,7 @@
                                     <a href="" class="nav-link">
                                         <div class="image-book">
                                             <img src="assets/example-book5.jpg" alt="">
+                                            <img src="../asset/img/example-book5.jpg" alt="">
                                         </div>
                                         <div class="info-book">
                                             <span class="title">
@@ -170,6 +177,7 @@
                                     <a href="" class="nav-link">
                                         <div class="image-book">
                                             <img src="assets/example-book5.jpg" alt="">
+                                            <img src="../asset/img/example-book5.jpg" alt="">
                                         </div>
                                         <div class="info-book">
                                             <span class="title">
@@ -184,6 +192,7 @@
                                     <a href="" class="nav-link">
                                         <div class="image-book">
                                             <img src="assets/example-book5.jpg" alt="">
+                                            <img src="../asset/img/example-book5.jpg" alt="">
                                         </div>
                                         <div class="info-book">
                                             <span class="title">
@@ -198,6 +207,7 @@
                                     <a href="" class="nav-link">
                                         <div class="image-book">
                                             <img src="assets/example-book5.jpg" alt="">
+                                            <img src="../asset/img/example-book5.jpg" alt="">
                                         </div>
                                         <div class="info-book">
                                             <span class="title">
@@ -212,6 +222,7 @@
                                     <a href="" class="nav-link">
                                         <div class="image-book">
                                             <img src="assets/example-book5.jpg" alt="">
+                                            <img src="../asset/img/example-book5.jpg" alt="">
                                         </div>
                                         <div class="info-book">
                                             <span class="title">
@@ -245,5 +256,3 @@
     <?php 
         include_once "../inc/footer.php"
     ?>
-</body>
-</html>
