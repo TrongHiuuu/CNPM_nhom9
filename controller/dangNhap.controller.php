@@ -1,6 +1,6 @@
 <?php
     //Include model
-    include_once('../model/login.model.php');
+    include_once('model/dangNhap.model.php');
     session_start();
 
     // Kiểm tra nếu có dữ liệu được gửi từ Ajax

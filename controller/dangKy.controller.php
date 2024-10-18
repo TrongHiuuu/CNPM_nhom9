@@ -1,6 +1,6 @@
 <?php
     //Include model
-    include_once('model/login.model.php');
+    include_once('model/dangKy.model.php');
     session_start();
     if (isset($_POST['dangKy_tenTK']) &&
         isset($_POST['dangKy_email']) &&
@@ -11,6 +11,7 @@
             $email = $_POST['dangKy_email'];
             $dienthoai = $_POST['dangKy_dienthoai'];
             $matkhau = $_POST['dangKy_matkhau'];
-            dangKyTaiKhoan($tenTK, $email, $dienthoai, $matkhau);
+            $registerResult = dangKyTaiKhoan($tenTK, $email, $dienthoai, $matkhau);
+            echo json_encode($registerResult);
     }
 ?>
